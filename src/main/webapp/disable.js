@@ -1,7 +1,7 @@
 // Copyright 2019-2020 The MathWorks, Inc.
 // This script file is used to disable all web elements of depricated MATLAB build step.
 
-//Disable all previous UI elements.
+//Disable all previous UI elements. (update)
 var testMode = getElementsByXpath("//td[contains(text(),'Test mode')]/../td[3]/select");
 disableAllElements(testMode);
 
